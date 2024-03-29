@@ -7,11 +7,11 @@ from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.select import Select
 
-
-@pytest.mark.usefixtures("setup")
-class BaseClass:
-
-    def getLogger(self):
+                                        # fixture is a special type of method
+@pytest.mark.usefixtures("setup")       # fixture gets execute before and after function or class
+class BaseClass:                        # fixture can be attach to any other method or class which will be executed before executing that particular method or class
+                                        # it is marker but inbuilt marker.. usefixtures()
+    def getLogger(self):                # All this method are public method # BaseClass,jitene be method hai just register
         loggerName = inspect.stack()[1][3]
         logger = logging.getLogger(loggerName)
         fileHandler = logging.FileHandler('logfile.log')
@@ -29,4 +29,10 @@ class BaseClass:
 
     def selectOptionByText(self,locator,text):
         sel = Select(locator)
-        sel.select_by_visible_text(text)
+        sel.select_by_visible_text(text)  # method -test pass
+
+# Select class use -dropdown related operation performance(make select object)
+# Locator - Requirement Constructor loctor and  element pass
+##DOM => Document object model
+## Visibility =>  element is avaible in HTML and visible on web page
+## presence =>  element is available on HTML page ## may be or may not be visible on web page

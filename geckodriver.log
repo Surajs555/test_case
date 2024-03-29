@@ -1,0 +1,56 @@
+1654403918177	geckodriver	INFO	Listening on 127.0.0.1:51118
+1654403918377	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51119" "-no-remote" "-profile" "C:\\Users\\sss2327\\AppData\\Local\\Temp\\rust_mozprofile6oF3Y3"
+1654403921684	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\sss2327\\AppData\\Local\\Temp\\rust_mozprofile6oF3Y3\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51119/devtools/browser/4dd58c4f-747c-49aa-93ac-510382aafec7
+1654403932109	Marionette	INFO	Listening on port 51123
+1654403932734	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://rahulshettyacademy.com"
+1654403938459	Marionette	INFO	Stopped listening on port 51123
+[Parent 59044, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+1654403942361	geckodriver	INFO	Listening on 127.0.0.1:51188
+1654403943068	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51189" "-no-remote" "-profile" "C:\\Users\\sss2327\\AppData\\Local\\Temp\\rust_mozprofileIFkPH3"
+1654403944283	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\sss2327\\AppData\\Local\\Temp\\rust_mozprofileIFkPH3\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51189/devtools/browser/51edb494-fb4a-4bcf-aae8-d2aaf5ce4062
+1654403950878	Marionette	INFO	Listening on port 51192
+1654403951131	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://rahulshettyacademy.com"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://rahulshettyacademy.com"
+1654404038617	Marionette	INFO	Stopped listening on port 51192
+1657854404907	geckodriver	INFO	Listening on 127.0.0.1:49558
+1657854405555	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "49559" "-no-remote" "-profile" "C:\\Users\\sss2327\\AppData\\Local\\Temp\\rust_mozprofileq4BhHg"
+1657854408534	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\sss2327\\AppData\\Local\\Temp\\rust_mozprofileq4BhHg\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:49559/devtools/browser/da3ac936-2f6d-4aa7-98ae-59a989f35b25
+1657854414230	Marionette	INFO	Listening on port 49564
+1657854414507	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://rahulshettyacademy.com"
+1657854418549	Marionette	INFO	Stopped listening on port 49564
+[Parent 43572, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:725
+1657854420793	geckodriver	INFO	Listening on 127.0.0.1:49622
+1657854421473	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "49623" "-no-remote" "-profile" "C:\\Users\\sss2327\\AppData\\Local\\Temp\\rust_mozprofilez3gyFR"
+1657854422389	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\sss2327\\AppData\\Local\\Temp\\rust_mozprofilez3gyFR\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:49623/devtools/browser/4a717def-ef81-44c9-8e12-f730706a788d
+1657854426909	Marionette	INFO	Listening on port 49626
+1657854427419	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://rahulshettyacademy.com"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://rahulshettyacademy.com"
+1657854439956	Marionette	INFO	Stopped listening on port 49626
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
